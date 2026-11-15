@@ -36,10 +36,10 @@ jobs:
         run: |
           set -euo pipefail
           cd "$RUNNER_TEMP/out"
-          if gh release view "v$V" >/dev/null 2>&1; then
-            gh release upload "v$V" "Arce-$V.zip" "Arce-Setup-$V.exe" Arce-Mac.zip Arce-Setup.exe --clobber
+          if gh release view "v$V" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload -R "$GITHUB_REPOSITORY" "v$V" "Arce-$V.zip" "Arce-Setup-$V.exe" Arce-Mac.zip Arce-Setup.exe --clobber
           else
-            gh release create "v$V" "Arce-$V.zip" "Arce-Setup-$V.exe" Arce-Mac.zip Arce-Setup.exe --title "Arce $V" --notes-file notes.txt --target main --latest
+            gh release create -R "$GITHUB_REPOSITORY" "v$V" "Arce-$V.zip" "Arce-Setup-$V.exe" Arce-Mac.zip Arce-Setup.exe --title "Arce $V" --notes-file notes.txt --target main --latest
           fi
 
       - name: Point the apps at the new version
