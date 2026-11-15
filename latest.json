@@ -1,5 +1,5 @@
 {
-  "version": "1.11.1",
-  "url": "https://raw.githubusercontent.com/aarialden14-coder/arce-browser/main/Arce-1.11.1.zip",
-  "notes": "Fixed a white box that could appear in full screen."
+  "version": "1.11.2",
+  "url": "https://raw.githubusercontent.com/aarialden14-coder/arce-browser/main/Arce-1.11.2.zip",
+  "notes": "Fixed the white box in full screen. Arce now checks for updates every 20 minutes and whenever you switch back to it."
 }
