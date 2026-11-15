@@ -1,5 +1,5 @@
 {
-  "version": "1.11.4",
-  "url": "https://raw.githubusercontent.com/aarialden14-coder/arce-browser/main/Arce-1.11.4.zip",
-  "notes": "Closed tabs no longer come back when you reopen Arce."
+  "version": "1.11.5",
+  "url": "https://raw.githubusercontent.com/aarialden14-coder/arce-browser/main/Arce-1.11.5.zip",
+  "notes": "Privacy: Discord status no longer shows which website you're on (you can turn it back on in Settings)."
 }

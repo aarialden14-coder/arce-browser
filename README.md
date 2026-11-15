@@ -13,4 +13,4 @@ Works on Apple Silicon and Intel Macs running macOS 12 or newer.
 
 ## Windows
 
-**[Download Arce for Windows](https://github.com/aarialden14-coder/arce-browser/raw/main/win/Arce-Setup-1.11.4.exe)** — run the installer, no admin needed. Arce for Windows updates itself.
+**[Download Arce for Windows](https://github.com/aarialden14-coder/arce-browser/raw/main/win/Arce-Setup-1.11.5.exe)** — run the installer, no admin needed. Arce for Windows updates itself.
