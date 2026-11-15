@@ -1,5 +1,5 @@
 {
-  "version": "1.6",
-  "url": "https://raw.githubusercontent.com/aarialden14-coder/arce-browser/main/Arce-1.6.zip",
-  "notes": "9 themes, background updates that install when you quit, editable shortcuts, and no more black flash on live wallpapers."
+  "version": "1.7",
+  "url": "https://raw.githubusercontent.com/aarialden14-coder/arce-browser/main/Arce-1.7.zip",
+  "notes": "YouTube ads are now removed before they load. Any that slip through are hidden and skipped instantly."
 }
