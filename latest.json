@@ -1,5 +1,5 @@
 {
-  "version": "1.11.2",
-  "url": "https://raw.githubusercontent.com/aarialden14-coder/arce-browser/main/Arce-1.11.2.zip",
-  "notes": "Fixed the white box in full screen. Arce now checks for updates every 20 minutes and whenever you switch back to it."
+  "version": "1.11.3",
+  "url": "https://raw.githubusercontent.com/aarialden14-coder/arce-browser/main/Arce-1.11.3.zip",
+  "notes": "Chat and new-tab cards now match the rest of Arce. Arce no longer bounces in the Dock. Google sign-in fix for Windows."
 }
