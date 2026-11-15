@@ -1,7 +1,7 @@
-version: 1.8.0
+version: 1.9.0
 files:
-  - url: Arce-Setup-1.8.0.exe
-    sha512: 9IupStUTH3gHXELlKJHHo2kX7O56Rhl1BaPt2F2XwTFFvlb+AjUai+GjWf50Wjd+z36L6MKDzxsEuYP3+6jsZw==
-path: Arce-Setup-1.8.0.exe
-sha512: 9IupStUTH3gHXELlKJHHo2kX7O56Rhl1BaPt2F2XwTFFvlb+AjUai+GjWf50Wjd+z36L6MKDzxsEuYP3+6jsZw==
-releaseDate: '2026-11-15T14:13:12.414Z'
+  - url: Arce-Setup-1.9.0.exe
+    sha512: SRL2nN5bVI8Pd93dcQDKDZHKUhBDaqXcTFxF5QC3hdXII/sAxGgqa7fXpgR/DNT1jjpOLcUkH5H4RY/XYnb/jA==
+path: Arce-Setup-1.9.0.exe
+sha512: SRL2nN5bVI8Pd93dcQDKDZHKUhBDaqXcTFxF5QC3hdXII/sAxGgqa7fXpgR/DNT1jjpOLcUkH5H4RY/XYnb/jA==
+releaseDate: '2026-11-15T14:53:51.703Z'
