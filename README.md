@@ -1,16 +1,13 @@
 # Arce
 
-A lightweight browser for Mac gamers: vertical tabs, built-in ad blocking, Spotify in the sidebar, live wallpapers, homepage widgets and Game Mode.
+A fast, good-looking browser for Mac and Windows: vertical tabs, built-in ad blocking, reader mode, page translation, link previews, pop-out videos, live wallpapers, Arce Chat and Game Mode.
 
 ## Download
 
-Download the newest **Arce-x.x.zip** from the file list above, unzip it and drag **Arce** into your Applications folder. The first time, right-click Arce and choose **Open**.
+**[Download Arce for Mac](https://github.com/aarialden14-coder/arce-browser/releases/latest/download/Arce-Mac.zip)** — unzip it and drag **Arce** into your Applications folder. The first time, right-click Arce and choose **Open**. Works on Apple Silicon and Intel Macs running macOS 12 or newer.
+
+**[Download Arce for Windows](https://github.com/aarialden14-coder/arce-browser/releases/latest/download/Arce-Setup.exe)** — run the installer, no admin needed.
 
 After that, Arce updates itself: when a new version is out, an **Update** button appears in the sidebar.
 
-Works on Apple Silicon and Intel Macs running macOS 12 or newer.
-
-
-## Windows
-
-**[Download Arce for Windows](https://github.com/aarialden14-coder/arce-browser/raw/main/win/Arce-Setup-1.15.0.exe)** — run the installer, no admin needed. Arce for Windows updates itself.
+Current version: **1.15.0** · [All versions](https://github.com/aarialden14-coder/arce-browser/releases)
