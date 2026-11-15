@@ -1,7 +1,7 @@
-version: 1.11.5
+version: 1.12.0
 files:
-  - url: Arce-Setup-1.11.5.exe
-    sha512: bxQZq6BX1G8SR4wc8Dgm51ysgs7aHJ+wbFQSbCN2y8ld2reFqqFgiIBMxb3SNdZ+rRjapSLKzhXbi0bRPz7QdA==
-path: Arce-Setup-1.11.5.exe
-sha512: bxQZq6BX1G8SR4wc8Dgm51ysgs7aHJ+wbFQSbCN2y8ld2reFqqFgiIBMxb3SNdZ+rRjapSLKzhXbi0bRPz7QdA==
-releaseDate: '2026-11-15T16:55:57.165Z'
+  - url: Arce-Setup-1.12.0.exe
+    sha512: AL+48+MW3siqi5eu/RhkAMk4ms3/WgziU1v0hYb3mrT8KuBBoki+JT9Y0HXmhEahPrAs7ZKHjjw+mHd8Zw0Edw==
+path: Arce-Setup-1.12.0.exe
+sha512: AL+48+MW3siqi5eu/RhkAMk4ms3/WgziU1v0hYb3mrT8KuBBoki+JT9Y0HXmhEahPrAs7ZKHjjw+mHd8Zw0Edw==
+releaseDate: '2026-11-15T17:47:57.609Z'

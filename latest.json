@@ -1,5 +1,5 @@
 {
-  "version": "1.11.5",
-  "url": "https://raw.githubusercontent.com/aarialden14-coder/arce-browser/main/Arce-1.11.5.zip",
-  "notes": "Privacy: Discord status no longer shows which website you're on (you can turn it back on in Settings)."
+  "version": "1.12.0",
+  "url": "https://raw.githubusercontent.com/aarialden14-coder/arce-browser/main/Arce-1.12.0.zip",
+  "notes": "Command bar (⌘K), split view, tab workspaces, pause/resume downloads, group chats with replies, reactions and link previews, and sync between your devices. Air quality on the new tab is now off by default."
 }
