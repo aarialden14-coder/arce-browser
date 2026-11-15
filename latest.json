@@ -1,5 +1,5 @@
 {
-  "version": "1.11",
-  "url": "https://raw.githubusercontent.com/aarialden14-coder/arce-browser/main/Arce-1.11.zip",
-  "notes": "Chat: send files up to 1 GB with progress bars, photo/video previews, Delivered receipts. Stay signed in after restarting. Home button. Accurate IP, weather and air quality on the new tab. Greasy Fork removed. Lots of stability fixes."
+  "version": "1.11.1",
+  "url": "https://raw.githubusercontent.com/aarialden14-coder/arce-browser/main/Arce-1.11.1.zip",
+  "notes": "Fixed a white box that could appear in full screen."
 }
