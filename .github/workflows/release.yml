@@ -1,0 +1,58 @@
+# Publishes a new Arce version as a GitHub release.
+# Claude pushes the new apps to the temporary "release-upload" branch; this turns them into a release,
+# points the apps' update check at it, and deletes the branch again so the big files don't pile up in main.
+name: Publish release
+on:
+  push:
+    branches: [release-upload]
+permissions:
+  contents: write
+concurrency: release
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Put the Windows installer back together and check both apps
+        run: |
+          set -euo pipefail
+          V=$(jq -r .version upload/release.json)
+          echo "V=$V" >> "$GITHUB_ENV"
+          mkdir -p "$RUNNER_TEMP/out"
+          cat upload/Arce-Setup-$V.exe.part* > "$RUNNER_TEMP/out/Arce-Setup-$V.exe"
+          cp upload/Arce-$V.zip "$RUNNER_TEMP/out/"
+          cd "$RUNNER_TEMP/out"
+          echo "$(jq -r .exeSha256 "$GITHUB_WORKSPACE/upload/release.json")  Arce-Setup-$V.exe" | sha256sum -c
+          echo "$(jq -r .zipSha256 "$GITHUB_WORKSPACE/upload/release.json")  Arce-$V.zip" | sha256sum -c
+          cp "Arce-$V.zip" Arce-Mac.zip
+          cp "Arce-Setup-$V.exe" Arce-Setup.exe
+          jq -r .notes "$GITHUB_WORKSPACE/upload/release.json" > notes.txt
+          cp "$GITHUB_WORKSPACE/upload/latest.json" "$GITHUB_WORKSPACE/upload/latest.yml" "$GITHUB_WORKSPACE/upload/README.md" .
+
+      - name: Create the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/out"
+          if gh release view "v$V" >/dev/null 2>&1; then
+            gh release upload "v$V" "Arce-$V.zip" "Arce-Setup-$V.exe" Arce-Mac.zip Arce-Setup.exe --clobber
+          else
+            gh release create "v$V" "Arce-$V.zip" "Arce-Setup-$V.exe" Arce-Mac.zip Arce-Setup.exe --title "Arce $V" --notes-file notes.txt --target main --latest
+          fi
+
+      - name: Point the apps at the new version
+        run: |
+          set -euo pipefail
+          git fetch --depth=1 origin main
+          git checkout -B main origin/main
+          cp "$RUNNER_TEMP/out/latest.json" latest.json
+          mkdir -p win
+          cp "$RUNNER_TEMP/out/latest.yml" win/latest.yml
+          cp "$RUNNER_TEMP/out/README.md" README.md
+          git rm -q --ignore-unmatch 'Arce-*.zip' 'win/Arce-Setup-*.exe' || true
+          git add latest.json win/latest.yml README.md
+          git -c user.name="github-actions[bot]" -c user.email="41898283+github-actions[bot]@users.noreply.github.com" commit -m "Publish Arce $V" || echo "nothing to change"
+          git push origin main
+          git push origin --delete release-upload
