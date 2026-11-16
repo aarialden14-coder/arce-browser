@@ -1,5 +1,5 @@
 {
-  "version": "1.17.0",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.17.0/Arce-1.17.0.zip",
-  "notes": "uBlock Origin's lists and YouTube fixes, incognito button, real fullscreen, chat wallpaper, template moderators."
+  "version": "1.17.1",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.17.1/Arce-1.17.1.zip",
+  "notes": "The sidebar stays in fullscreen again (hiding it is now an option in Settings)."
 }
