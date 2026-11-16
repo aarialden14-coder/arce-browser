@@ -1,5 +1,5 @@
 {
-  "version": "1.16.0",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.16.0/Arce-1.16.0.zip",
-  "notes": "Startup animation, and Arce Search: a private search engine you can pick in Settings."
+  "version": "1.16.1",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.16.1/Arce-1.16.1.zip",
+  "notes": "Fixes: ChatGPT and other protected sites, faster and more reliable YouTube videos, new tabs open at the end."
 }
