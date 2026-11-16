@@ -1,5 +1,5 @@
 {
-  "version": "1.16.1",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.16.1/Arce-1.16.1.zip",
-  "notes": "Fixes: ChatGPT and other protected sites, faster and more reliable YouTube videos, new tabs open at the end."
+  "version": "1.16.2",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.16.2/Arce-1.16.2.zip",
+  "notes": "Fix: the Gemini panel no longer overlaps the top bar when tabs are on top."
 }
