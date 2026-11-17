@@ -1,6 +1,6 @@
 # Arce
 
-A fast, good-looking browser for Mac and Windows: vertical tabs, built-in ad blocking, reader mode, page translation, link previews, pop-out videos, live wallpapers, Arce Chat and Game Mode.
+A fast, good-looking browser for Mac and Windows: vertical tabs, uBlock ad blocking, a privacy and security report, Arce AI, reader mode, page translation, link previews, pop-out videos, live wallpapers, Arce Chat and Game Mode.
 
 ## Download
 
@@ -10,4 +10,4 @@ A fast, good-looking browser for Mac and Windows: vertical tabs, built-in ad blo
 
 After that, Arce updates itself: when a new version is out, an **Update** button appears in the sidebar.
 
-Current version: **1.17.1** · [All versions](https://github.com/aarialden14-coder/arce-browser/releases)
+Current version: **1.18.0** · [All versions](https://github.com/aarialden14-coder/arce-browser/releases)

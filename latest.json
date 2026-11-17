@@ -1,5 +1,5 @@
 {
-  "version": "1.17.1",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.17.1/Arce-1.17.1.zip",
-  "notes": "The sidebar stays in fullscreen again (hiding it is now an option in Settings)."
+  "version": "1.18.0",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.18.0/Arce-1.18.0.zip",
+  "notes": "Arce AI beside Gemini: ask about Arce, open sites, search, and change settings by typing. New Privacy & Security report: see which companies track you on each site, what Arce blocked, fingerprinting, unsafe logins, dangerous sites and risky downloads. Edit and delete your chat messages. Incognito now keeps nothing after you close it, with a new incognito tab page. Offline page with three mini-games: Runner, Snake and 2048."
 }
