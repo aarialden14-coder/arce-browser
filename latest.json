@@ -1,5 +1,5 @@
 {
-  "version": "1.22.0",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.22.0/Arce-1.22.0.zip",
-  "notes": "Arce Passwords: a new Passwords page to see, edit and add your saved logins, make strong passwords, and check for weak or reused ones. Import from Apple Passwords, Chrome, Edge, Firefox, Bitwarden or 1Password, and export to Apple Passwords. On Mac, Arce asks for Touch ID before showing passwords. Linux: passwords now save even without a keyring."
+  "version": "1.23.0",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.23.0/Arce-1.23.0.zip",
+  "notes": "Live wallpapers rebuilt from scratch (smooth GPU scenes: Midnight, Aurora, Nebula, Ember, Silk, Deep Sea, Dunes, Lava Lamp, Starlight). New tab and sidebar scale down on small screens so widgets don't take over. Removed the Network/location widget. Tighter player and buttons on small windows."
 }
