@@ -1,5 +1,5 @@
 {
-  "version": "1.18.1",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.18.1/Arce-1.18.1.zip",
-  "notes": "Arce AI can now read the page you're on: ask it to summarize the page, find something on it, answer a question about it, list its sections, or open a link by name. It also explains honestly what it is (Arce's own assistant, not ChatGPT or Gemini). Chat bubbles and buttons stay readable with the white accent colour."
+  "version": "1.19.0",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.19.0/Arce-1.19.0.zip",
+  "notes": "More ways to make Arce yours: make your own theme from any colour, choose how round the corners are, pick a tab style (soft, outline, filled or minimal), rename the name at the top, choose which sidebar buttons show, and pick a sound style (soft, retro or bubbly). Arce AI can change these too, like \"retro sounds\" or \"make tabs filled\"."
 }
