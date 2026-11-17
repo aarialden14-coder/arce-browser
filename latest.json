@@ -1,5 +1,5 @@
 {
-  "version": "1.24.0",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.24.0/Arce-1.24.0.zip",
-  "notes": "Interactive wallpapers that follow your cursor: Paint (swirling ink you push around), Ripple (water that ripples as you move) and Constellation (stars that link up and reach for your cursor). Find them in Customize > Wallpaper, marked Interactive."
+  "version": "1.25.0",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.25.0/Arce-1.25.0.zip",
+  "notes": "Paint is now the default wallpaper for everyone: swirling ink that follows your cursor. If you picked a different wallpaper yourself, Arce keeps it."
 }
