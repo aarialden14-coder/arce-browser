@@ -1,5 +1,5 @@
 {
-  "version": "1.23.0",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.23.0/Arce-1.23.0.zip",
-  "notes": "Live wallpapers rebuilt from scratch (smooth GPU scenes: Midnight, Aurora, Nebula, Ember, Silk, Deep Sea, Dunes, Lava Lamp, Starlight). New tab and sidebar scale down on small screens so widgets don't take over. Removed the Network/location widget. Tighter player and buttons on small windows."
+  "version": "1.24.0",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.24.0/Arce-1.24.0.zip",
+  "notes": "Interactive wallpapers that follow your cursor: Paint (swirling ink you push around), Ripple (water that ripples as you move) and Constellation (stars that link up and reach for your cursor). Find them in Customize > Wallpaper, marked Interactive."
 }
