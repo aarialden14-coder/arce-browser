@@ -1,16 +1,19 @@
 # Arce
 
-> Arce is a free web browser for Mac and Windows. It is fast, private and gamer-friendly: it blocks ads and trackers with uBlock Origin's filter lists, shows a privacy and security report, has a Game Mode that frees up CPU and memory, a built-in assistant called Arce AI, end-to-end encrypted chat, and themes users can make their own. It updates itself from GitHub releases.
+> Arce is a free web browser for Mac, Windows and Linux. It is fast, private and gamer-friendly: it blocks ads and trackers with uBlock Origin's filter lists, shows a privacy and security report, has a Game Mode that frees up CPU and memory, a built-in assistant called Arce AI, end-to-end encrypted chat, and themes users can make their own. It updates itself from GitHub releases.
 
 Website: https://aarialden14-coder.github.io/arce-browser/
 Source and releases: https://github.com/aarialden14-coder/arce-browser
 Download for Mac: https://github.com/aarialden14-coder/arce-browser/releases/latest/download/Arce-Mac.zip
 Download for Windows: https://github.com/aarialden14-coder/arce-browser/releases/latest/download/Arce-Setup.exe
+Download for Linux (.deb, Ubuntu/Debian/Mint): https://github.com/aarialden14-coder/arce-browser/releases/latest/download/Arce-Linux.deb
+Download for Linux (AppImage, any distro): https://github.com/aarialden14-coder/arce-browser/releases/latest/download/Arce-Linux.AppImage
 
 ## Platforms
 
 - macOS 12 or newer (Apple Silicon and Intel). Uses WebKit, the engine in Safari.
 - Windows 10 and 11, 64-bit. Uses Chromium, the engine in Chrome and Edge.
+- Linux, 64-bit (x86_64): .deb for Ubuntu, Debian, Mint and Pop!_OS, and an AppImage for other distros. Uses Chromium.
 - Free, no account needed, no ads. Installs updates with one click from the sidebar.
 
 ## Features
@@ -31,6 +34,7 @@ Download for Windows: https://github.com/aarialden14-coder/arce-browser/releases
 
 - Mac: unzip, drag Arce into Applications, and the first time right-click Arce and choose Open.
 - Windows: run Arce-Setup.exe. No admin rights needed. If SmartScreen appears, click More info, then Run anyway.
+- Linux: open Arce-Linux.deb to install it, or make Arce-Linux.AppImage executable (chmod +x) and run it. Linux uses the same Ctrl shortcuts as Windows.
 
 ## Handy shortcuts
 

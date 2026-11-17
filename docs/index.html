@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Arce: the fast, private browser for gamers</title>
-<meta name="description" content="Arce is a free web browser for Mac and Windows. It blocks ads with uBlock, shows who is tracking you, has Game Mode, a built-in assistant, encrypted chat and themes you can make your own.">
+<meta name="description" content="Arce is a free web browser for Mac, Windows and Linux. It blocks ads with uBlock, shows who is tracking you, has Game Mode, a built-in assistant, encrypted chat and themes you can make your own.">
 <link rel="canonical" href="https://aarialden14-coder.github.io/arce-browser/">
 <link rel="icon" href="favicon.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Arce: the fast, private browser for gamers">
-<meta property="og:description" content="A free browser for Mac and Windows with uBlock ad blocking, a privacy report, Game Mode, Arce AI and themes you can make your own.">
+<meta property="og:description" content="A free browser for Mac, Windows and Linux with uBlock ad blocking, a privacy report, Game Mode, Arce AI and themes you can make your own.">
 <meta property="og:url" content="https://aarialden14-coder.github.io/arce-browser/">
 <meta property="og:image" content="https://aarialden14-coder.github.io/arce-browser/img/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
@@ -21,8 +21,8 @@
   "@type": "SoftwareApplication",
   "name": "Arce",
   "applicationCategory": "BrowserApplication",
-  "operatingSystem": "macOS 12 or newer, Windows 10 or newer",
-  "description": "Arce is a free, fast and private web browser for Mac and Windows. It has uBlock Origin ad blocking, a privacy and security report, Game Mode, a built-in assistant called Arce AI, end-to-end encrypted chat, a music player, reader mode, page translation, link previews, pop-out videos and custom themes.",
+  "operatingSystem": "macOS 12 or newer, Windows 10 or newer, Linux (64-bit)",
+  "description": "Arce is a free, fast and private web browser for Mac, Windows and Linux. It has uBlock Origin ad blocking, a privacy and security report, Game Mode, a built-in assistant called Arce AI, end-to-end encrypted chat, a music player, reader mode, page translation, link previews, pop-out videos and custom themes.",
   "url": "https://aarialden14-coder.github.io/arce-browser/",
   "downloadUrl": "https://github.com/aarialden14-coder/arce-browser/releases/latest",
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
@@ -82,7 +82,7 @@ h2 { font-size: clamp(30px, 4vw, 44px); line-height: 1.1; letter-spacing: -.03em
 .card h4 { margin: 0 0 6px; font-size: 16.5px; }
 .card p { margin: 0; color: var(--muted); font-size: 14.5px; }
 .dl { background: linear-gradient(180deg, transparent, rgba(255,59,78,.06)); }
-.dlcards { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; max-width: 820px; margin: 44px auto 0; }
+.dlcards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; max-width: 1080px; margin: 44px auto 0; }
 .dlcard { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 28px; text-align: left; }
 .dlcard.me { border-color: rgba(255,59,78,.45); box-shadow: 0 0 0 1px rgba(255,59,78,.2), 0 20px 50px rgba(255,59,78,.08); }
 .dlcard h3 { margin: 0 0 4px; font-size: 22px; display: flex; align-items: center; gap: 10px; }
@@ -115,12 +115,12 @@ footer a:hover { color: var(--text); }
 <header class="hero"><div class="wrap">
 	<div class="pill"><b>New</b> Arce AI, a privacy report and themes you build yourself</div>
 	<h1>The everyday browser that's fast, private and made for gamers.</h1>
-	<p class="lead">Arce blocks ads with uBlock, shows you who is tracking you, frees up your PC with Game Mode, and lets you make every part of it your own. Free for Mac and Windows.</p>
+	<p class="lead">Arce blocks ads with uBlock, shows you who is tracking you, frees up your PC with Game Mode, and lets you make every part of it your own. Free for Mac, Windows and Linux.</p>
 	<div class="cta">
 		<a class="btn primary" id="heroDl" href="#download"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11M7 10.5l5 5 5-5M5 20h14"/></svg><span>Download Arce</span></a>
 		<a class="btn" href="#features">See what it does</a>
 	</div>
-	<div class="note">Free · No account needed · Updates itself · Version <span class="ver">1.19.0</span></div>
+	<div class="note">Mac · Windows · Linux · Free · Updates itself · Version <span class="ver">1.19.0</span></div>
 	<div class="hero-shot"><img class="shot" src="img/newtab.webp" width="1600" height="1000" alt="The Arce browser with its vertical tab sidebar, music player and new tab page with clock, music, system and shortcut widgets"></div>
 </div></header>
 
@@ -212,6 +212,12 @@ footer a:hover { color: var(--text); }
 			<a class="btn primary" href="https://github.com/aarialden14-coder/arce-browser/releases/latest/download/Arce-Setup.exe">Download for Windows</a>
 			<small>Run the installer. No admin rights needed. If Windows SmartScreen appears, click More info, then Run anyway.</small>
 		</div>
+		<div class="dlcard" id="dlLinux">
+			<h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c-2.2 0-3.4 1.9-3.4 4.4 0 1.6.4 2.6-.6 4.2-1.2 1.9-2.8 3.6-2.8 5.7 0 .8.3 1.4.8 1.8M12 3c2.2 0 3.4 1.9 3.4 4.4 0 1.6-.4 2.6.6 4.2 1.2 1.9 2.8 3.6 2.8 5.7 0 .8-.3 1.4-.8 1.8"/><path d="M6 19.1c.9 1.2 2.6 1.9 3.7 1.4.9-.4.5-1.6.5-1.6M18 19.1c-.9 1.2-2.6 1.9-3.7 1.4-.9-.4-.5-1.6-.5-1.6M10.2 18.9c1.2.4 2.4.4 3.6 0"/><circle cx="10.4" cy="7.5" r=".6" fill="currentColor"/><circle cx="13.6" cy="7.5" r=".6" fill="currentColor"/><path d="M10.8 9.6c.7.5 1.7.5 2.4 0"/></svg>Linux</h3>
+			<p>64-bit Ubuntu, Debian, Mint, Fedora and more.</p>
+			<a class="btn primary" href="https://github.com/aarialden14-coder/arce-browser/releases/latest/download/Arce-Linux.deb">Download .deb</a>
+			<small>The .deb is for Ubuntu, Debian, Mint and Pop!_OS: open it to install. On other distros, use the <a href="https://github.com/aarialden14-coder/arce-browser/releases/latest/download/Arce-Linux.AppImage" style="text-decoration:underline">AppImage</a>: make it executable, then run it.</small>
+		</div>
 	</div>
 	<p class="note" style="margin-top:22px"><a href="https://github.com/aarialden14-coder/arce-browser/releases" style="text-decoration:underline">All versions and release notes</a></p>
 </div></section>
@@ -220,7 +226,8 @@ footer a:hover { color: var(--text); }
 	<div class="center"><div class="eyebrow">FAQ</div><h2>Questions</h2></div>
 	<div class="faq">
 		<details><summary>Is Arce free?</summary><p>Yes. Arce is free to download and use, with no account and no ads.</p></details>
-		<details><summary>What is Arce built on?</summary><p>On Mac, Arce uses WebKit, the same engine as Safari, so it's light on battery and memory. On Windows, it uses Chromium, the engine inside Chrome and Edge, so websites work just like they do there.</p></details>
+		<details><summary>What is Arce built on?</summary><p>On Mac, Arce uses WebKit, the same engine as Safari, so it's light on battery and memory. On Windows and Linux, it uses Chromium, the engine inside Chrome and Edge, so websites work just like they do there.</p></details>
+		<details><summary>Which Linux download should I pick?</summary><p>On Ubuntu, Debian, Linux Mint, Pop!_OS and Zorin, get the .deb and open it to install. When a new version is out, Arce shows a Download button in the sidebar. On any other distro, use the AppImage: right-click it, allow it to run as a program (or run <code>chmod +x Arce-Linux.AppImage</code>), then open it. The AppImage updates itself.</p></details>
 		<details><summary>Does Arce block YouTube ads?</summary><p>Yes. Arce uses uBlock Origin's filter lists and its site fixes. If a site ever breaks, click the shield in the address bar to turn blocking off just for that site.</p></details>
 		<details><summary>What is Arce AI? Is it ChatGPT?</summary><p>No. Arce AI is Arce's own assistant and it runs entirely on your device, with no servers. It can open sites, search, change settings, answer questions about Arce, and read the page you're on to summarize it or find things. For open-ended questions, Google's Gemini is in the same panel.</p></details>
 		<details><summary>Does Arce sell or collect my data?</summary><p>No. Your history, the privacy report and Arce AI conversations stay on your device. Arce Chat messages are end-to-end encrypted. Incognito windows don't keep history, cookies, passwords or your downloads list.</p></details>
@@ -235,14 +242,14 @@ footer a:hover { color: var(--text); }
 <script>
 // Highlight the download for this computer, and show the newest version number.
 (() => {
-	const ua = navigator.userAgent, mac = /Mac/.test(navigator.platform || ua), win = /Win/.test(navigator.platform || ua);
-	const pick = mac ? 'dlMac' : win ? 'dlWin' : '';
+	const ua = navigator.userAgent, plat = navigator.platform || ua, mac = /Mac/.test(plat), win = /Win/.test(plat), linux = !mac && !win && /Linux|X11/.test(plat + ua) && !/Android/.test(ua);
+	const pick = mac ? 'dlMac' : win ? 'dlWin' : linux ? 'dlLinux' : '';
 	if (pick) {
 		document.getElementById(pick).classList.add('me');
 		const a = document.getElementById(pick).querySelector('a.btn');
 		const h = document.getElementById('heroDl');
 		h.href = a.href;
-		h.querySelector('span').textContent = mac ? 'Download for Mac' : 'Download for Windows';
+		h.querySelector('span').textContent = mac ? 'Download for Mac' : win ? 'Download for Windows' : 'Download for Linux';
 	}
 	fetch('https://raw.githubusercontent.com/aarialden14-coder/arce-browser/main/latest.json', { cache: 'no-store' }).then(r => r.json()).then(j => {
 		if (!j || !/^\d+\.\d+\.\d+$/.test(j.version)) return;
