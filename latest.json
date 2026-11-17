@@ -1,5 +1,5 @@
 {
-  "version": "1.21.0",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.21.0/Arce-1.21.0.zip",
-  "notes": "Arce wallpapers: new wallpapers picked by Arce's team now show up for everyone in the wallpaper picker. Click one to download and use it. Live video wallpapers you share can now be up to 190 MB."
+  "version": "1.22.0",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.22.0/Arce-1.22.0.zip",
+  "notes": "Arce Passwords: a new Passwords page to see, edit and add your saved logins, make strong passwords, and check for weak or reused ones. Import from Apple Passwords, Chrome, Edge, Firefox, Bitwarden or 1Password, and export to Apple Passwords. On Mac, Arce asks for Touch ID before showing passwords. Linux: passwords now save even without a keyring."
 }
