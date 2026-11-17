@@ -1,0 +1,48 @@
+# Arce
+
+> Arce is a free web browser for Mac and Windows. It is fast, private and gamer-friendly: it blocks ads and trackers with uBlock Origin's filter lists, shows a privacy and security report, has a Game Mode that frees up CPU and memory, a built-in assistant called Arce AI, end-to-end encrypted chat, and themes users can make their own. It updates itself from GitHub releases.
+
+Website: https://aarialden14-coder.github.io/arce-browser/
+Source and releases: https://github.com/aarialden14-coder/arce-browser
+Download for Mac: https://github.com/aarialden14-coder/arce-browser/releases/latest/download/Arce-Mac.zip
+Download for Windows: https://github.com/aarialden14-coder/arce-browser/releases/latest/download/Arce-Setup.exe
+
+## Platforms
+
+- macOS 12 or newer (Apple Silicon and Intel). Uses WebKit, the engine in Safari.
+- Windows 10 and 11, 64-bit. Uses Chromium, the engine in Chrome and Edge.
+- Free, no account needed, no ads. Installs updates with one click from the sidebar.
+
+## Features
+
+- Ad and tracker blocking with uBlock Origin's filter lists and scriptlets, including YouTube. Shields can be turned off per site from the address bar.
+- Privacy & Security report (Privacy page): which companies track you on each site and whether Arce blocked them, sites that fingerprint your device, phishing and look-alike sites stopped, risky downloads blocked, unencrypted login forms, crypto miners.
+- Arce AI: an assistant beside Gemini in the AI panel. It runs on the device (not ChatGPT, OpenAI or Gemini). It opens sites, searches, changes settings, answers questions about Arce, and reads the current page to summarize it, find things, answer questions about it or open a link by name. Gemini, Google's AI, is in the same panel for open-ended questions.
+- Game Mode: sleeps background tabs and pauses animations to free CPU and RAM. Windows also has a RAM limit.
+- Arce Chat: end-to-end encrypted chat with friends and groups, file sharing, edit and delete messages.
+- Music: gaming radio stations, local music files and Spotify controls in the sidebar.
+- Customization: 9 themes plus "Make your own" from any colour, accent colours, fonts, corner roundness, tab styles (soft, outline, filled, minimal), icons-only sidebar or tabs on top, choose which sidebar buttons show, rename the name at the top, live video wallpapers, sound styles (soft, retro, bubbly). Looks can be shared as Templates.
+- Reader mode, page translation, Shift-click link previews, pop-out videos (picture in picture), split view, workspaces, mouse back/forward buttons, Discord status.
+- Incognito windows keep no history, cookies, passwords or download list after closing.
+- Offline page with three mini-games: Runner, Snake and 2048.
+- Safe browsing: blocks known malware and phishing sites, fake look-alike sites and disguised downloads. On Windows, finished downloads are scanned by Microsoft Defender.
+
+## Install tips
+
+- Mac: unzip, drag Arce into Applications, and the first time right-click Arce and choose Open.
+- Windows: run Arce-Setup.exe. No admin rights needed. If SmartScreen appears, click More info, then Run anyway.
+
+## Handy shortcuts
+
+| Action | Windows | Mac |
+| --- | --- | --- |
+| New tab | Ctrl+T | Cmd+T |
+| Reopen closed tab | Ctrl+Shift+T | Shift+Cmd+T |
+| Incognito window | Ctrl+Shift+N | Shift+Cmd+N |
+| AI panel (Arce AI and Gemini) | Ctrl+Shift+A | Shift+Cmd+A |
+| Summarize page with Gemini | Ctrl+Shift+S | Shift+Cmd+S |
+| Game Mode | Ctrl+Shift+G | Option+Shift+Cmd+G |
+| History | Ctrl+H | Cmd+Y |
+| Downloads | Ctrl+J | Option+Cmd+J |
+| Bookmark page | Ctrl+D | Cmd+D |
+| Command bar | Ctrl+K | Cmd+K |

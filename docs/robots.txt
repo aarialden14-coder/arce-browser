@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aarialden14-coder.github.io/arce-browser/sitemap.xml
