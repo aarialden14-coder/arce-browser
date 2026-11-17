@@ -1,5 +1,5 @@
 {
-  "version": "1.19.0",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.19.0/Arce-1.19.0.zip",
-  "notes": "More ways to make Arce yours: make your own theme from any colour, choose how round the corners are, pick a tab style (soft, outline, filled or minimal), rename the name at the top, choose which sidebar buttons show, and pick a sound style (soft, retro or bubbly). Arce AI can change these too, like \"retro sounds\" or \"make tabs filled\"."
+  "version": "1.20.0",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.20.0/Arce-1.20.0.zip",
+  "notes": "Arce now runs on Linux: a .deb for Ubuntu, Debian, Mint and Pop!_OS, and an AppImage for every other 64-bit distro. The AppImage updates itself; the .deb shows a Download button when a new version is out. Arce can also be set as your default browser on Linux."
 }
