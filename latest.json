@@ -1,5 +1,5 @@
 {
-  "version": "1.26.2",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.26.2/Arce-1.26.2.zip",
-  "notes": "Removed Dark Everything. It forced dark mode by inverting pages, which made sites without their own dark mode look broken. Sites that have a real dark mode still follow your system theme."
+  "version": "1.27.0",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.27.0/Arce-1.27.0.zip",
+  "notes": "Edit Page: tap Shift twice on any website to edit its text, like Inspect Element. Tap Shift twice again, press Esc or click Done to stop. Reloading the page puts everything back."
 }
