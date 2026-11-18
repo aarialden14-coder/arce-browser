@@ -14,4 +14,4 @@ A fast, good-looking browser for Mac, Windows and Linux: vertical tabs, uBlock a
 
 After that, Arce updates itself: when a new version is out, an **Update** button appears in the sidebar.
 
-Current version: **1.25.0** · [All versions](https://github.com/aarialden14-coder/arce-browser/releases)
+Current version: **1.26.0** · [All versions](https://github.com/aarialden14-coder/arce-browser/releases)

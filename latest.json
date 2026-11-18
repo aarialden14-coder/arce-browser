@@ -1,5 +1,5 @@
 {
-  "version": "1.25.0",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.25.0/Arce-1.25.0.zip",
-  "notes": "Paint is now the default wallpaper for everyone: swirling ink that follows your cursor. If you picked a different wallpaper yourself, Arce keeps it."
+  "version": "1.26.0",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.26.0/Arce-1.26.0.zip",
+  "notes": "Ambient Light for YouTube: the colours of the video glow around the player and spill into Arce's sidebar and frame, changing smoothly as the video plays. On by default; turn it off in Mods > YouTube."
 }
