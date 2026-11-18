@@ -1,12 +1,12 @@
-version: 1.26.0
+version: 1.26.1
 files:
-  - url: https://github.com/aarialden14-coder/arce-browser/releases/download/v1.26.0/Arce-1.26.0.AppImage
-    sha512: 4Das8Xdb9ON66RBTtFbuD0eFAVJ+l8CcCn1dyMMLhbYsU25Q37A/zkhbO1/pez47yjUPuFd0k9713bRt67Guaw==
-    size: 102699352
-    blockMapSize: 106860
-  - url: https://github.com/aarialden14-coder/arce-browser/releases/download/v1.26.0/Arce-1.26.0.deb
-    sha512: YiPMIvg/GGVh/uOsG81XIG2V4599ddqo9PULnxFWlDxwcmLg51pmUr6gIatNx4VAQERxqOYevoIKZimYZ8V9zA==
-    size: 91679622
-path: https://github.com/aarialden14-coder/arce-browser/releases/download/v1.26.0/Arce-1.26.0.AppImage
-sha512: 4Das8Xdb9ON66RBTtFbuD0eFAVJ+l8CcCn1dyMMLhbYsU25Q37A/zkhbO1/pez47yjUPuFd0k9713bRt67Guaw==
-releaseDate: '2026-11-18T06:08:12.079Z'
+  - url: https://github.com/aarialden14-coder/arce-browser/releases/download/v1.26.1/Arce-1.26.1.AppImage
+    sha512: BLek94zzmADeWVRE8U7dFS0YgjgpuZIAMuyQcn6Gk7vZBluLOhOtYix+v2mtSdI0VMWvbGIqHZR2+yvUOWjM7Q==
+    size: 102691058
+    blockMapSize: 106758
+  - url: https://github.com/aarialden14-coder/arce-browser/releases/download/v1.26.1/Arce-1.26.1.deb
+    sha512: e669w3yAr4iV7zZOeBjaPTURpimN4dVC9CMUNsBZZQwbrPvurCpFPa4rUj45HsBqhhLfAN/wC9GSXxz2uKKdCA==
+    size: 91675410
+path: https://github.com/aarialden14-coder/arce-browser/releases/download/v1.26.1/Arce-1.26.1.AppImage
+sha512: BLek94zzmADeWVRE8U7dFS0YgjgpuZIAMuyQcn6Gk7vZBluLOhOtYix+v2mtSdI0VMWvbGIqHZR2+yvUOWjM7Q==
+releaseDate: '2026-11-18T12:24:23.324Z'

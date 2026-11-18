@@ -1,5 +1,5 @@
 {
-  "version": "1.26.0",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.26.0/Arce-1.26.0.zip",
-  "notes": "Ambient Light for YouTube: the colours of the video glow around the player and spill into Arce's sidebar and frame, changing smoothly as the video plays. On by default; turn it off in Mods > YouTube."
+  "version": "1.26.1",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.26.1/Arce-1.26.1.zip",
+  "notes": "Fixed the YouTube ad skipper: it now actually presses Skip (YouTube was ignoring script clicks), jumps straight to the end of ads that can't be skipped, and keeps the Skip button visible."
 }
