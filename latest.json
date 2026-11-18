@@ -1,5 +1,5 @@
 {
-  "version": "1.26.1",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.26.1/Arce-1.26.1.zip",
-  "notes": "Fixed the YouTube ad skipper: it now actually presses Skip (YouTube was ignoring script clicks), jumps straight to the end of ads that can't be skipped, and keeps the Skip button visible."
+  "version": "1.26.2",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.26.2/Arce-1.26.2.zip",
+  "notes": "Removed Dark Everything. It forced dark mode by inverting pages, which made sites without their own dark mode look broken. Sites that have a real dark mode still follow your system theme."
 }
