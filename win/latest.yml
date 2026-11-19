@@ -1,7 +1,7 @@
-version: 1.28.2
+version: 1.28.3
 files:
-  - url: https://github.com/aarialden14-coder/arce-browser/releases/download/v1.28.2/Arce-Setup-1.28.2.exe
-    sha512: Cptc4o75CJ/zokR6I2q1XXyCa86PpuzoMH67TA1moY8/0QroDeqcKUDF26gpXR/g/PanClDZDiT+2fMXFilNqA==
-path: https://github.com/aarialden14-coder/arce-browser/releases/download/v1.28.2/Arce-Setup-1.28.2.exe
-sha512: Cptc4o75CJ/zokR6I2q1XXyCa86PpuzoMH67TA1moY8/0QroDeqcKUDF26gpXR/g/PanClDZDiT+2fMXFilNqA==
-releaseDate: '2026-11-19T20:20:44.878Z'
+  - url: https://github.com/aarialden14-coder/arce-browser/releases/download/v1.28.3/Arce-Setup-1.28.3.exe
+    sha512: f7uzqRcx+5uIjqF6I6hRWleLn7YJPNP47ZHc17dfjFaOPL3mBMOHIdXNeUKdaCL7QHomqFxkKM5//RgT7bh3IA==
+path: https://github.com/aarialden14-coder/arce-browser/releases/download/v1.28.3/Arce-Setup-1.28.3.exe
+sha512: f7uzqRcx+5uIjqF6I6hRWleLn7YJPNP47ZHc17dfjFaOPL3mBMOHIdXNeUKdaCL7QHomqFxkKM5//RgT7bh3IA==
+releaseDate: '2026-11-19T20:42:28.544Z'
