@@ -27,6 +27,16 @@ jobs:
           echo "$(jq -r .zipSha256 "$GITHUB_WORKSPACE/upload/release.json")  Arce-$V.zip" | sha256sum -c
           cp "Arce-$V.zip" Arce-Mac.zip
           cp "Arce-Setup-$V.exe" Arce-Setup.exe
+          # The Chromium version of Arce for Mac (optional); when macEngine is chromium it becomes the main Mac download.
+          CHROMIUM=""
+          if ls "$GITHUB_WORKSPACE"/upload/Arce-Chromium-Mac-$V.zip.part* >/dev/null 2>&1; then
+            cat "$GITHUB_WORKSPACE"/upload/Arce-Chromium-Mac-$V.zip.part* > "Arce-Chromium-Mac-$V.zip"
+            echo "$(jq -r .chromiumMacSha256 "$GITHUB_WORKSPACE/upload/release.json")  Arce-Chromium-Mac-$V.zip" | sha256sum -c
+            cp "Arce-Chromium-Mac-$V.zip" Arce-Chromium-Mac.zip
+            if [ "$(jq -r '.macEngine // "webkit"' "$GITHUB_WORKSPACE/upload/release.json")" = "chromium" ]; then cp "Arce-Chromium-Mac-$V.zip" Arce-Mac.zip; fi
+            CHROMIUM="Arce-Chromium-Mac-$V.zip Arce-Chromium-Mac.zip"
+          fi
+          echo "CHROMIUM=$CHROMIUM" >> "$GITHUB_ENV"
           LINUX=""
           if ls "$GITHUB_WORKSPACE"/upload/Arce-$V.AppImage.part* >/dev/null 2>&1; then
             cat "$GITHUB_WORKSPACE"/upload/Arce-$V.AppImage.part* > "Arce-$V.AppImage"
@@ -49,9 +59,9 @@ jobs:
           set -euo pipefail
           cd "$RUNNER_TEMP/out"
           if gh release view "v$V" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            gh release upload -R "$GITHUB_REPOSITORY" "v$V" "Arce-$V.zip" "Arce-Setup-$V.exe" Arce-Mac.zip Arce-Setup.exe $LINUX --clobber
+            gh release upload -R "$GITHUB_REPOSITORY" "v$V" "Arce-$V.zip" "Arce-Setup-$V.exe" Arce-Mac.zip Arce-Setup.exe $LINUX $CHROMIUM --clobber
           else
-            gh release create -R "$GITHUB_REPOSITORY" "v$V" "Arce-$V.zip" "Arce-Setup-$V.exe" Arce-Mac.zip Arce-Setup.exe $LINUX --title "Arce $V" --notes-file notes.txt --target main --latest
+            gh release create -R "$GITHUB_REPOSITORY" "v$V" "Arce-$V.zip" "Arce-Setup-$V.exe" Arce-Mac.zip Arce-Setup.exe $LINUX $CHROMIUM --title "Arce $V" --notes-file notes.txt --target main --latest
           fi
 
       - name: Point the apps at the new version
