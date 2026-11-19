@@ -1,10 +1,10 @@
 {
-  "version": "1.28.1",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.28.1/Arce-1.28.1.zip",
-  "notes": "Your wallpaper now fills the whole window: it runs behind the sidebar and shows through Arce's own pages (new tab, Settings, Extensions, Chat and the rest). Interactive wallpapers like Paint follow your cursor everywhere, including over the sidebar and Settings.",
+  "version": "1.28.2",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.28.2/Arce-1.28.2.zip",
+  "notes": "Paint never goes dark anymore: when you're not moving the mouse, two soft brushes keep painting slow, colourful swirls. Your own strokes also stay on screen a bit longer.",
   "macChromium": {
-    "version": "1.28.1",
-    "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.28.1/Arce-Chromium-Mac-1.28.1.zip",
-    "notes": "Your wallpaper now fills the whole window: it runs behind the sidebar and shows through Arce's own pages (new tab, Settings, Extensions, Chat and the rest). Interactive wallpapers like Paint follow your cursor everywhere, including over the sidebar and Settings."
+    "version": "1.28.2",
+    "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.28.2/Arce-Chromium-Mac-1.28.2.zip",
+    "notes": "Paint never goes dark anymore: when you're not moving the mouse, two soft brushes keep painting slow, colourful swirls. Your own strokes also stay on screen a bit longer."
   }
 }
