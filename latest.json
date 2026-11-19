@@ -1,10 +1,10 @@
 {
-  "version": "1.28.0",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.28.0/Arce-1.28.0.zip",
-  "notes": "Arce for Mac is moving to Chromium, the same engine as Chrome. This update gets your Mac ready: it keeps your passwords and sign-ins safe for the switch. The Chromium version for Mac is attached as a test download (Arce-Chromium-Mac.zip). Windows and Linux: small fixes.",
+  "version": "1.28.1",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.28.1/Arce-1.28.1.zip",
+  "notes": "Your wallpaper now fills the whole window: it runs behind the sidebar and shows through Arce's own pages (new tab, Settings, Extensions, Chat and the rest). Interactive wallpapers like Paint follow your cursor everywhere, including over the sidebar and Settings.",
   "macChromium": {
-    "version": "1.28.0",
-    "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.28.0/Arce-Chromium-Mac-1.28.0.zip",
-    "notes": "Arce for Mac is moving to Chromium, the same engine as Chrome. This update gets your Mac ready: it keeps your passwords and sign-ins safe for the switch. The Chromium version for Mac is attached as a test download (Arce-Chromium-Mac.zip). Windows and Linux: small fixes."
+    "version": "1.28.1",
+    "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.28.1/Arce-Chromium-Mac-1.28.1.zip",
+    "notes": "Your wallpaper now fills the whole window: it runs behind the sidebar and shows through Arce's own pages (new tab, Settings, Extensions, Chat and the rest). Interactive wallpapers like Paint follow your cursor everywhere, including over the sidebar and Settings."
   }
 }
