@@ -1,10 +1,10 @@
 {
-  "version": "1.29.0",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.29.0/Arce-1.29.0.zip",
-  "notes": "Chrome Web Store extensions: on Windows, Linux and the Chromium version for Mac you can now press Add to Chrome on chromewebstore.google.com. Arce asks first, installs it, keeps it updated, and puts its button in the sidebar (click for its popup, right-click for its menu). Manage them in Extensions.",
+  "version": "1.29.1",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.29.1/Arce-1.29.1.zip",
+  "notes": "Mac: the Chrome Web Store now offers a one-click switch to the Chromium version of Arce, which can install Chrome extensions (also in Extensions > Switch to Chromium). Your tabs, bookmarks, passwords, logins and settings come along.",
   "macChromium": {
-    "version": "1.29.0",
-    "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.29.0/Arce-Chromium-Mac-1.29.0.zip",
-    "notes": "Chrome Web Store extensions: on Windows, Linux and the Chromium version for Mac you can now press Add to Chrome on chromewebstore.google.com. Arce asks first, installs it, keeps it updated, and puts its button in the sidebar (click for its popup, right-click for its menu). Manage them in Extensions."
+    "version": "1.29.1",
+    "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.29.1/Arce-Chromium-Mac-1.29.1.zip",
+    "notes": "Mac: the Chrome Web Store now offers a one-click switch to the Chromium version of Arce, which can install Chrome extensions (also in Extensions > Switch to Chromium). Your tabs, bookmarks, passwords, logins and settings come along."
   }
 }
