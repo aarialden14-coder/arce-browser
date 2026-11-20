@@ -1,10 +1,10 @@
 {
-  "version": "1.28.3",
-  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.28.3/Arce-1.28.3.zip",
-  "notes": "Mac: the wallpaper now actually shows through Arce's own pages (new tab, Settings, Chat\u2026) instead of a dark box.",
+  "version": "1.29.0",
+  "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.29.0/Arce-1.29.0.zip",
+  "notes": "Chrome Web Store extensions: on Windows, Linux and the Chromium version for Mac you can now press Add to Chrome on chromewebstore.google.com. Arce asks first, installs it, keeps it updated, and puts its button in the sidebar (click for its popup, right-click for its menu). Manage them in Extensions.",
   "macChromium": {
-    "version": "1.28.3",
-    "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.28.3/Arce-Chromium-Mac-1.28.3.zip",
-    "notes": "Mac: the wallpaper now actually shows through Arce's own pages (new tab, Settings, Chat\u2026) instead of a dark box."
+    "version": "1.29.0",
+    "url": "https://github.com/aarialden14-coder/arce-browser/releases/download/v1.29.0/Arce-Chromium-Mac-1.29.0.zip",
+    "notes": "Chrome Web Store extensions: on Windows, Linux and the Chromium version for Mac you can now press Add to Chrome on chromewebstore.google.com. Arce asks first, installs it, keeps it updated, and puts its button in the sidebar (click for its popup, right-click for its menu). Manage them in Extensions."
   }
 }
